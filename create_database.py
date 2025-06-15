@@ -13,4 +13,4 @@ query = "SELECT Year, [Avg Temp (°C)], [Total Rain (mm)] FROM weather LIMIT 10"
 result = pd.read_sql(query, conn)
 
 # Show result
-print(result)
+# print(result)
